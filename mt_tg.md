@@ -1,4 +1,4 @@
-# TG 通知主题模板合集 v2
+# TG 通知主题模板合集
 
 ## 目录
 
@@ -18,7 +18,7 @@
 ---
 <a id="tianjige"></a>
 
-# ☯️ 天机阁主题（最终版）
+# ☯️ 天机阁主题
 
 ## 标题模板
 
@@ -79,6 +79,7 @@
 ⏱️ **耗费时辰：**{{.Duration}}{{if .RecognizeDuration}}
 🔍 **观星推演：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 👁️ **神识探查：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🧭 **入阁占验：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **收入阁中：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **静候天时：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📚 **卷宗数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -91,7 +92,7 @@
 
 <a id="naicha"></a>
 
-# 🧋 奶茶店主题（最终版）
+# 🧋 奶茶店主题
 
 ## 标题模板
 
@@ -152,6 +153,7 @@
 ⏱️ **制作耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🍓 **食材准备：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 👨‍🍳 **品质检测：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🧾 **小票验杯：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 🥤 **装杯完成：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **排队取餐：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📦 **订单数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -164,7 +166,7 @@
 
 <a id="jixia"></a>
 
-# 🏛 稷下学宫主题（最终版）
+# 🏛 稷下学宫主题
 
 ## 标题模板
 
@@ -224,6 +226,7 @@
 ⏱️ **温书耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🔍 **典籍考证：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 👁️ **内容校验：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🪶 **入阁点卯：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📚 **收入书阁：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **等候批阅：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📄 **典籍数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -236,7 +239,7 @@
 
 <a id="ai"></a>
 
-# 🤖 AI失控主题（最终版）
+# 🤖 AI失控主题
 
 ## 标题模板
 
@@ -298,6 +301,7 @@
 ⏱️ **运行时长：**{{.Duration}}{{if .RecognizeDuration}}
 🔎 **特征识别：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 🎞️ **媒体解析：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🧪 **沙盒预演：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **数据写入：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **IO等待：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📄 **数据包数：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -310,7 +314,7 @@
 
 <a id="cyber-night-market"></a>
 
-# 🪩 赛博夜市主题（最终版）
+# 🪩 赛博夜市主题
 
 ## 标题模板
 
@@ -371,6 +375,7 @@
 ⏱️ **开摊耗时：**{{.Duration}}{{if .RecognizeDuration}}
 📱 **扫码识别：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 💡 **灯牌巡检：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🏮 **开摊验牌：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 🥡 **装袋出摊：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **排队时间：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 🍢 **货品数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -383,7 +388,7 @@
 
 <a id="alien-earth"></a>
 
-# 🛸 外星人偷看地球主题（最终版）
+# 🛸 外星人偷看地球主题
 
 ## 标题模板
 
@@ -444,6 +449,7 @@
 ⏱️ **捕获耗时：**{{.Duration}}{{if .RecognizeDuration}}
 👽 **物种识别：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 🛰 **信号扫描：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🔬 **样本检疫：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **样本封存：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **母舰等待：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 🧪 **样本数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -456,7 +462,7 @@
 
 <a id="cosmic-ktv"></a>
 
-# 🎤 宇宙KTV主题（最终版）
+# 🎤 宇宙KTV主题
 
 ## 标题模板
 
@@ -517,6 +523,7 @@
 ⏱️ **开唱耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🔍 **曲库检索：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 🎛️ **音轨校准：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+📋 **包厢验歌：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 🎵 **加入歌单：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **等待切歌：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📀 **曲目数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -529,7 +536,7 @@
 
 <a id="dongfeng"></a>
 
-# 🚀 东风快递主题（最终版）
+# 🚀 东风快递主题
 
 ## 标题模板
 
@@ -591,6 +598,7 @@
 ⏱️ **发射耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🎯 **目标锁定：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 📡 **卫星扫描：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🛰 **落点校验：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **弹头投送：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **待命时间：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📄 **弹药数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -603,7 +611,7 @@
 
 <a id="jianghu"></a>
 
-# ⚔️ 江湖门派主题（最终版）
+# ⚔️ 江湖门派主题
 
 ## 标题模板
 
@@ -665,6 +673,7 @@
 ⏱️ **缉拿耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🔍 **线索追查：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 🎞️ **卷宗勘验：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🧾 **验明正身：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **入档登记：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **候审时长：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📚 **卷宗数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -677,7 +686,7 @@
 
 <a id="hanglu"></a>
 
-# 🏴‍☠️ 伟大航路主题（最终版）
+# 🏴‍☠️ 伟大航路主题
 
 ## 标题模板
 
@@ -737,6 +746,7 @@
 ⏱️ **航行耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🧭 **海图校准：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 🔭 **瞭望侦查：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🧾 **靠港清点：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **货物入仓：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **等待靠岸：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📄 **货物数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -749,7 +759,7 @@
 
 <a id="chouka"></a>
 
-# 🎰 赌狗抽卡主题（最终版）
+# 🎰 赌狗抽卡主题
 
 ## 标题模板
 
@@ -810,6 +820,7 @@
 ⏱️ **出货耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🔍 **卡池检索：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 🎞️ **资源解析：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🎒 **背包验金：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 📦 **奖励发放：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **等待开奖：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 📄 **获得数量：**{{.FileCount}}{{end}}{{if .FileSize}}
@@ -822,7 +833,7 @@
 
 <a id="night-shift-store"></a>
 
-# 🧃 便利店夜班主题（最终版）
+# 🧃 便利店夜班主题
 
 ## 标题模板
 
@@ -883,6 +894,7 @@
 ⏱️ **上架耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🔍 **条码扫描：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
 📦 **库存盘点：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🏷️ **价签巡检：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 🛒 **入库摆放：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **排队结账：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
 🥤 **商品数量：**{{.FileCount}}{{end}}{{if .FileSize}}
