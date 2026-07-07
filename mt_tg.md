@@ -11,7 +11,7 @@
 - [🎤 宇宙KTV主题](#cosmic-ktv)
 - [🚀 东风快递主题](#dongfeng)
 - [⚔️ 江湖门派主题](#jianghu)
-- [🏴‍☠️ 伟大航路主题](#hanglu)
+- [☠️ 伟大航路主题](#hanglu)
 - [🎰 赌狗抽卡主题](#chouka)
 - [🧃 便利店夜班主题](#night-shift-store)
 
@@ -152,7 +152,7 @@
 
 ⏱️ **制作耗时：**{{.Duration}}{{if .RecognizeDuration}}
 🍓 **食材准备：**{{.RecognizeDuration}}{{end}}{{if .FFprobeDuration}}
-👨‍🍳 **品质检测：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
+🍳 **品质检测：**{{.FFprobeDuration}}{{if .FFprobeCount}}（{{.FFprobeCount}}次）{{end}}{{end}}{{if .PrepareDuration}}
 🧾 **小票验杯：**{{.PrepareDuration}}{{end}}{{if .TransferDuration}}
 🥤 **装杯完成：**{{.TransferDuration}}{{end}}{{if .WaitDuration}}
 ⏳ **排队取餐：**{{.WaitDuration}}{{end}}{{if gt .FileCount 1}}
@@ -686,14 +686,14 @@
 
 <a id="hanglu"></a>
 
-# 🏴‍☠️ 伟大航路主题
+# ☠️ 伟大航路主题
 
 ## 标题模板
 
 ### 方案 1（推荐）
 
 ```gotemplate
-{{if .AIUsed}}🧭 航海日志更新{{else}}{{if .Episodes}}🏴‍☠️ 新航线已解锁{{else}}🌊 发现未知岛屿{{end}}{{end}}{{if .Title}}｜{{.Title}}{{end}}{{if .Year}} ({{.Year}}){{end}}
+{{if .AIUsed}}🧭 航海日志更新{{else}}{{if .Episodes}}☠️ 新航线已解锁{{else}}🌊 发现未知岛屿{{end}}{{end}}{{if .Title}}｜{{.Title}}{{end}}{{if .Year}} ({{.Year}}){{end}}
 ```
 
 ### 方案 2
@@ -711,7 +711,7 @@
 ### 方案 4
 
 ```gotemplate
-{{if .AIUsed}}🔭 瞭望手发现异常航迹{{else}}{{if .Episodes}}🏴‍☠️ 新航段已抵达{{else}}🏴‍☠️ 新宝藏已入舱{{end}}{{end}}{{if .Title}}｜{{.Title}}{{end}}{{if .Episodes}} {{.Episodes}}{{end}}{{if .Year}} ({{.Year}}){{end}}
+{{if .AIUsed}}🔭 瞭望手发现异常航迹{{else}}{{if .Episodes}}☠️ 新航段已抵达{{else}}☠️ 新宝藏已入舱{{end}}{{end}}{{if .Title}}｜{{.Title}}{{end}}{{if .Episodes}} {{.Episodes}}{{end}}{{if .Year}} ({{.Year}}){{end}}
 ```
 
 ### 方案 5
